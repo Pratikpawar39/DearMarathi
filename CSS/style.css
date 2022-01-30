@@ -1,0 +1,150 @@
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+    
+}
+/*title*/
+
+#title{
+    background-color: #FF3400;
+    padding: 4% 10%;
+    color: #fff;
+    padding-bottom: 10%;
+}
+
+.titlecol{
+    padding-top: 1.5rem;
+}
+.titlecol p{
+    padding-top: 5%;
+}
+.titlecol button{
+    margin-top: 5%;
+    margin: 5% 3% 0% 0%;
+}
+
+.title-img{
+    width: 100%;
+    position: absolute;
+    padding-bottom: 0%;
+}
+
+
+/*Navigation bar*/
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+
+h1{
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+
+/*products*/
+
+#product{
+    padding: 4% 10%;
+    background-color: #fff;
+    color:#FF3400;
+    text-align: center;
+    position: relative;
+}
+.ProductCard{
+    padding: 2% 1%;
+}
+.bodycard p{
+    padding-top: 1rem;
+}
+.butoon{
+    background-color: #FF3400;
+    color: #fff;
+}
+
+/*about*/
+
+#about{
+    padding: 4% 10%;
+    background-color: #FF3400;
+    text-align: center;
+    color: #fff;
+}
+.aboutrow{
+    padding-top: 3%;
+}
+.aboutdetails{
+    text-align: left;
+    padding-top: 2%;
+}
+.aboutdetails p{
+    padding-top: 5%;
+    opacity: 0.8;
+}
+.aboutdetails a p{
+    color: #fff;
+    text-decoration: none;
+}
+.logoimg{
+    width: 80%;
+}
+
+/*team*/
+
+#team{
+    padding: 4% 10%;
+    text-align: center;
+    color: #FF3400;
+}
+
+.teamrow{
+    padding-top: 3%;
+}
+.teamcol p{
+    color: #424242;
+}
+.imgteam{
+    width: 50%;
+    border-radius: 100%;
+    margin: 1rem;
+}
+
+/*footer*/
+
+#footer{
+    padding: 4% 10%;
+    background-color: #FF3400;
+    color: #fff;
+    text-align: center;
+}
+.footerlinkes{
+}
+.flink{
+    padding: 3% 9%;
+    color: #fff;
+    text-decoration: none;
+}
+
+/*media quory*/
+
+@media (max-width:1284px and min-width:1266){
+    #title{
+        padding-bottom: 0%;
+    }
+    .titlecol{
+        margin-bottom: 5%;
+    }
+    .title-img{
+    }
+    .titleimage{
+        margin-bottom: 0%;
+    }
+}
